@@ -1,0 +1,11 @@
+<div class="ui container">
+    <div class="ui segment">
+        <select (change)="citySelect($any($event.target).value)" class="ui seach dropdown">
+            <option value="">City</option>
+            <option value="guwahati">Guwahati</option>
+        </select>
+        <br>
+        <br>
+        <button (click)="onButtonClick()" class="ui primary button">Submit</button>
+    </div>
+</div>
